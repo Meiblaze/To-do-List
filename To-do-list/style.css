@@ -1,0 +1,238 @@
+*{
+    text-align: center;
+    align-content: center;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/89/07/23/8907237d32a2a5f6c3f2f79036f262a4.gif);
+    
+    text-align: center;
+}
+
+h1{
+    color: #915a91;
+    margin-bottom: 1.4rem;
+}
+
+h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+
+.item{  
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: black;
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+.item-input{
+    width: 350px;
+    height: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid white 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    background: hsl(345, 100%, 91%);
+    outline: none;
+}
+
+.boton-editar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.boton-remover{
+    height: 45px;
+    width: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #915a91;
+    font-size: 20px;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #915a91;
+    color: white;
+}
+
+.boton-agregar:hover{
+    opacity: 0.9px;
+}
+  
+  @media (max-width: 700px) {
+    input, .input {
+        width: 450px;
+        height: 40px;
+    }
+
+    item-input, .item-input {
+        height: 37px;
+        width: 370px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+
+    /* h1, .h1 {
+        font-size: calc(1.275rem + 1.5vw);
+  } */
+
+    boton-editar, .boton-editar {
+        font-size: 1.4rem;
+    }
+
+    boton-agregar, .boton-agregar {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+    }
+
+    boton-remover, .boton-remover{
+        width: 37px;
+        height: 37px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    input, .input {
+        width: 350px;
+        height: 37px;
+    }
+
+    item-input, .item-input {
+        width: 250px;
+        height: 33px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
+
+    /* h1, .h1 {
+        font-size: 1.3rem;
+    } */
+
+    boton-editar, .boton-editar {
+        font-size: 1.4rem;
+    }
+
+    boton-agregar, .boton-agregar {
+        width: 37px;
+        height: 37px;
+        border-radius: 8px;
+    }
+
+    boton-remover, .boton-remover{
+        width: 33px;
+        height: 33px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+  }
+
+    @media (max-width: 500px) {
+        input, .input {
+            width: 320px;
+            height: 30px;
+            border-radius: 7px;
+        }
+    
+        item-input, .item-input {
+            width: 240px;
+            height: 28px;
+            border-radius: 7px;
+            font-size: 10px;
+        }
+    
+        h1, .h1 {
+            font-size: 1.3rem;
+        }
+    
+        boton-editar, .boton-editar {
+            font-size: 1.2rem;
+        }
+    
+        boton-agregar, .boton-agregar {
+            width: 30px;
+            height: 30px;
+            border-radius: 7px;
+        }
+    
+        boton-remover, .boton-remover{
+            width: 28px;
+            height: 28px;
+            border-radius: 7px;
+            font-size: 16px;
+        }
+      }
+
+    @media (max-width: 425px) {
+        input, .input {
+            width: 250px;
+            height: 26px;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+    
+        item-input, .item-input {
+            width: 200px;
+            height: 23px;
+            border-radius: 6px;
+            font-size: 10px;
+        }
+    
+        h1, .h1 {
+            font-size: 1.3rem;
+        }
+    
+        boton-editar, .boton-editar {
+            font-size: 1.1rem;
+            color: #915a91;
+        }
+    
+        boton-agregar, .boton-agregar {
+            width: 26px;
+            height: 26px;
+            border-radius: 6px;
+        }
+    
+        boton-remover, .boton-remover{
+            width: 23px;
+            height: 23px;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+      }
